@@ -23,6 +23,7 @@ scikit-learn==1.4.0
 sqlalchemy==2.0.29
 statsmodels==0.14.1
 streamlit==1.32.2
+streamlit-extras==0.4.2
 ujson==5.9.0
 xgboost==2.0.3
 holidays==0.47
