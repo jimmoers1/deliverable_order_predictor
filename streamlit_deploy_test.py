@@ -139,5 +139,5 @@ if model_deploy:
             st.subheader(
                 f"Het verwacht aantal bestellingen op deze dag is {int(result)}, Waarbij de verwachte hoeveelheid tussen {int(lower_bound_result)} en {int(upper_bound_result)} ligt."
             )
-        except Exception:
+        except:
             st.error("De voorspelling is te ver vooruit. Probeer een andere datum.")
